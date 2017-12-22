@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">GoChatIn</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">Logout</string>
+    <string name="fullname">Fullname</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_settings">Settings</string>
+    <string name="view_contact">View Contact</string>
+
+    <string name="note">Note</string>
+    <string name="date">Date</string>
+
+    <string name="toolbar_title_home">Home</string>
+    <string name="toolbar_title_explore">Explore</string>
+    <string name="other_activity">Other Activity</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_item_home">Home</string>
+    <string name="nav_drawer_item_explore">Explore</string>
+    <string name="nav_drawer_help_and_feedback"><![CDATA[Help & feedback]]></string>
+    <string name="nav_drawer_about">About</string>
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+    <string name="tag_nav_drawer_special_entry">nav_drawer_special_entry</string>
+    <string name="tools_text_account_information_username">Username</string>
+    <string name="tools_text_account_information_email">user@mail.com</string>
+
+    <!-- Typeface names -->
+    <string name="typeface_roboto_regular">Roboto-Regular</string>
+    <string name="typeface_roboto_medium">Roboto-Medium</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_users">Users</string>
+
+
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+
+
+    <string name="title">(Android WebSockets Chat App)</string>
+    <string name="author_name">By Ravi Tamada</string>
+    <string name="author_url">www.androidhive.info</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="btn_join">JOIN</string>
+    <string name="btn_send">Send</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_profile">Profile</string>
+
+
+    <!--                System texts                -->
+
+    <string name="country">Country</string>
+    <string name="name">Name</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="status">Status</string>
+    <string name="connects_in">Connects in</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="timezone">Timezone</string>
+    <string name="signed_up">Signed up</string>
+    <string name="first_seen">First seen</string>
+    <string name="last_seen">Last seen</string>
+    <string name="last_contacted">Last Contacted</string>
+    <string name="last_heard_from">Last heard from</string>
+    <string name="last_viewed_url">Last viewed url</string>
+    <string name="web_sessions">Web Sessions</string>
+    <string name="browser">Browser</string>
+    <string name="browser_language">Browser language</string>
+    <string name="browser_version">browser Version</string>
+    <string name="language_override">language Override</string>
+    <string name="os">OS</string>
+    <string name="twitter_followers">Twitter followers</string>
+    <string name="unsubscribed_from_emails">Unsubscribed from emails</string>
+    <string name="unsubscribed_from_sms">Unsubscribed from sms</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="spinner_title">Gender</string>
+
+
+    <string name="profile_edited_successfully">Profile Updated Successfully </string>
+    <string name="falied_to_update">Failed To Update</string>
+    <string name="please_enter_valid_name">Please Enter Valid Name</string>
+    <string name="failed_to_submit">Failed To Submit</string>
+    <string name="tags">Tags</string>
+    <string name="add_new_tag">Add New Tag</string>
+    <string name="assign_to">Assign To</string>
+
+    <string name="Please_Check_Your_Network_Connection">Please check your network connection </string>
+
+    <string-array name="Gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Status">
+        <item>Select Status</item>
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+
+    <string-array name="Connects_In">
+        <item>Users</item>
+        <item>Leads</item>
+    </string-array>
+
+</resources>

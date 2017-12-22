@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <!--<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:padding="@dimen/activity_horizontal_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:text="@string/add_new_note"
+            android:id="@+id/textVieq1"
+            android:textColor="@color/tabsScrollColor"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMessageBox"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:autoLink="all"
+            android:hint="Enter note here"
+            android:lines="5"
+            android:minLines="1"
+            android:gravity="top|left"
+            android:maxLines="10"
+            android:paddingTop="5dp"
+            android:scrollbars="none"
+            android:inputType="textMultiLine|textCapSentences"/>
+
+        <!-- <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/addnewnotebutton"
+             android:text="@string/save"
+             android:background="@color/bg_btn_join"
+             android:textColor="@color/white"
+             android:layout_gravity="end"/>-->
+
+        <Button
+            android:id="@+id/btnotesubmit"
+            android:text="@string/save"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonshape1"
+            android:layout_gravity="end"
+            />
+
+
+    </LinearLayout>
+
+<!--</android.support.v4.widget.NestedScrollView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_viewnotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tile_bg"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list_view_messages"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll"
+        android:paddingTop="25dp"
+        android:stackFromBottom="true">
+    </ListView>
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/typingbutton"
+    android:text="user is typing......"
+    android:background="@null"
+    android:layout_gravity="center"
+    android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/editbackground"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_attach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/content_attachment" />
+
+        <EditText
+            android:id="@+id/inputMsg"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="8dp"
+            android:background="@android:color/transparent"
+            android:paddingRight="6dp"
+            />
+
+      <!--  <ImageButton
+            android:id="@+id/btn_emojiicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_msg_input"
+            android:layout_gravity="center"
+            android:src="@drawable/emojilogo" />-->
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/social_send_now_dark" />
+    </LinearLayout>
+
+    android:background="@color/bg_btn_join"
+
+
+   <!-- <LinearLayout
+        android:id="@+id/llMsgCompose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="4" >-->
+
+
+       <!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/bg_msg_input"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="70dp"
+                android:gravity="top"
+                android:layout_centerVertical="true"
+                android:background="@color/bg_msg_input"
+                android:textColor="@color/text_msg_input"
+                android:id="@+id/id_search_EditText"
+                android:hint="Enter search key" />
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/content_attachment"
+                android:layout_centerVertical="true"
+                android:layout_alignTop="@+id/id_search_EditText"
+                android:layout_alignBottom="@+id/id_search_EditText"
+                android:layout_alignRight="@+id/id_search_EditText"
+                android:layout_margin="5dp"
+                android:background="@null"
+                android:text="Button"/>
+
+        </RelativeLayout>-->
+
+<!--        <EditText
+            android:id="@+id/inputMsg"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@color/bg_msg_input"
+            android:textColor="@color/text_msg_input"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"/>-->
+
+      <!--  <Button
+            android:id="@+id/btnSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/bg_btn_join"
+            android:textColor="@color/white"
+            android:text="@string/btn_send" />-->
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnSend"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/bg_btn_join"
+                android:src="@drawable/social_send_now_dark"
+                />
+
+        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ChatActivity">
+
+    <item android:id="@+id/viewcontact" android:title="@string/view_contact"
+        android:icon="@drawable/user"
+        android:orderInCategory="100" app:showAsAction="always"/>
+
+    <item android:id="@+id/action_addnewcontact" android:title="@string/add_new_tag"
+        android:icon="@drawable/tags"
+        android:orderInCategory="100" app:showAsAction="always"/>
+
+    <item android:id="@+id/action_assigito" android:title="@string/assign_to"
+        android:icon="@drawable/assign"
+        android:orderInCategory="100" app:showAsAction="always"/>
+
+
+</menu>
